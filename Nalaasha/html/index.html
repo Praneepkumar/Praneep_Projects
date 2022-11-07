@@ -192,73 +192,136 @@
   <section class="mobile mt-5">
     <div class="container container1">
       <h2 class="h2 mt-3 mb-3">Why go mobile?</h2>
-      <div class="accordionTwo">
-        <div class="panel-group" id="accordionTwoLeft">
-          <div class="panel panel-default mb-2">
-            <div class="panel-heading">
-              <div class="media">
-                <i class="fa-solid fa-check"></i>&nbsp;&nbsp;
-                <div class="media-body">
-                  <h4 class="panel-title">
-
-                    <a data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftone"
-                      aria-expanded="false" class="collapsed">
-                      For what reason would it be advisable
-                    </a>
-                  </h4>
-
-                </div>
+      <div class="accordion" id="accordionExample">
+        <div class="card" id="accordion-card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0 d-flex accordion-title">
+              <div class="user-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                </svg>
               </div>
+              <button class="btn btn-block text-left btn-uncolored" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item #1
+              </button>
+            </h2>
+          </div>
 
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body accordion-secondary-text">
+              Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the
+              <code>.show</code> class.
             </div>
-            <div id="collapseTwoLeftone" class="panel-collapse collapse" aria-expanded="false" role="tablist"
-              style="height: 0px;">
-              <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit risus nisl, nec facilisis
-                ante iaculis fringilla. Integer mattis risus vel dapibus rhoncus. Duis ut nulla et metus vehicula
-                facilisis non eu quam.
+            <div class="accordion-item-content">
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
               </div>
             </div>
           </div>
-          <!-- /.panel-default -->
-          <div class="panel panel-default mb-2">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftTwo"
-                  aria-expanded="false">
-                  for me to think about business content?
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwoLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-              <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit risus nisl, nec facilisis
-                ante iaculis fringilla. Integer mattis risus vel dapibus rhoncus. Duis ut nulla et metus vehicula
-                facilisis non eu quam.
-              </div>
-            </div>
-          </div>
-          <!-- /.panel-default -->
-          <div class="panel panel-default mb-2">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftThree"
-                  aria-expanded="false">
-                  it be advisable
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwoLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-              <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit risus nisl, nec facilisis
-                ante iaculis fringilla. Integer mattis risus vel dapibus rhoncus. Duis ut nulla et metus vehicula
-                facilisis non eu quam.
-              </div>
-            </div>
-          </div>
-          <!-- /.panel-default -->
         </div>
-        <!--end of /.panel-group-->
+        <div class="card" id="accordion-card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0 d-flex accordion-title">
+              <div class="user-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                </svg>
+              </div>
+              <button class="btn btn-block text-left collapsed btn-uncolored" type="button" data-toggle="collapse"
+                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body accordion-secondary-text">
+              Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+            <div class="accordion-item-content">
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="accordion-card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0 d-flex accordion-title">
+              <div class="user-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                </svg>
+              </div>
+              <button class="btn btn-block text-left collapsed btn-uncolored" type="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body accordion-secondary-text">
+              And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by
+              default.
+            </div>
+            <div class="accordion-item-content">
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+              <div class="mark-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, adipisci!</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
