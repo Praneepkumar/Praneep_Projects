@@ -1,0 +1,278 @@
+
+body{
+font-family: 'Century Gothic', sans-serif!important;
+                                                
+}
+p{
+	color: #898989;
+	font-size: 16px;
+line-height: 28px;
+}
+.banner {
+  background: url("../images/banner.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 456px;
+  margin-bottom: 45px;
+}
+.banner-text{
+	font-family: 'Century Gothic', sans-serif;                                          
+	position: relative;
+	top: 133px;
+}
+.banner-text h2{
+	color: #00EFE1;
+	font-style: normal;
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 22px;
+}
+.banner-text h5{
+	color: #fff;
+	font-style: normal;
+	font-weight: 400;
+    font-size: 18px;
+	line-height: 33px;
+}
+.navbar{
+	margin: 10px 0px;
+}
+.navbar-collapse ul li{
+	padding-right: 30px;
+}
+.white-box{
+	background: #FAFDFF;
+box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.17);
+border-radius: 4px;
+color: #0F3259;
+}
+.media i{
+	color: #0394CF;
+}
+.white-box:hover{
+	background: #0394CF;
+box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.17);
+border-radius: 4px;
+color: #fff!important;
+}
+.white-box:hover .media i {
+            color: #FFE24B;
+        }
+
+.container1 {
+    max-width: 1335px!important;
+}
+.h2{
+    font-size: 36px!important;
+    color: #193770!important;
+    text-align: center;
+    font-weight: bolder;
+}
+.h21{
+    font-size: 36px!important;
+    color: #193770!important;
+    font-weight: bolder;
+}
+.mobile{
+	background: rgba(242, 245, 249, 0.95);
+	padding: 18px 0;
+}
+
+/*-----Accordian tabs--------*/
+.accordion_two_section {
+    background: #f7f7f7;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.accordionTwo .panel-group {
+    margin-bottom: 0;
+}
+
+.accordionTwo .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 10px solid transparent;
+    border-radius: 0;
+    margin: 0;
+}
+
+.accordionTwo .panel-default {
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.07);
+border-radius: 15px;
+
+}
+
+.accordionTwo .panel-default>.panel-heading {
+    background: #4385f5;
+    border-radius: 0px;
+    border-color: #4385f5;
+}
+
+.accordion-wrap .panel-heading {
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.accordionTwo .panel .panel-heading a.collapsed {
+    color: #999999;
+    background-color: #fff;
+    display: block;
+    padding: 12px 20px;
+}
+
+.accordionTwo .panel .panel-heading a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+}
+
+.accordion-wrap .panel .panel-heading a {
+    font-size: 14px;
+}
+
+.accordionTwo .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 20px 20px 20px 30px;
+    background: #4385f5;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.accordionTwo .panel .panel-heading a:after {
+    content: "\2212";
+    color: #4285f4;
+    background: #fff;
+}
+
+.accordionTwo .panel .panel-heading a:after, .accordionTwo .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    float: right;
+    width: 21px;
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.accordionTwo .panel .panel-heading a.collapsed:after {
+    content: "\2b";
+    color: #fff;
+    background-color: #DADADA;
+}
+
+.accordionTwo .panel .panel-heading a:after {
+    content: "\2212";
+    color: #4285f4;
+    background: #dadada;
+}
+
+a:link {
+    text-decoration: none
+}
+
+/*--------solutions--------*/
+.solutions{
+	background: url(../images/solutions-bg.png) no-repeat;
+	width: 100%;
+	background-size: cover;
+	color: #fff;
+}
+
+.solutions ul li{
+list-style-image: url("../images/li-img-white.svg");
+padding-bottom: 33px;
+}
+.expertise{
+	background: url(../images/expertise-bg.png) no-repeat;
+	width: 100%;
+	background-size: cover;
+	margin: 60px 0px 55px 0px;
+}
+.expertise ul li{
+list-style-image: url("../images/li-img-blue.svg");
+padding-bottom: 20px;
+}
+
+.highlights-box{
+	background: #F9F9FA;
+box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.17);
+color: #0772A6;
+border-radius: 9px;
+text-align: center;
+height: 106px;
+}
+/*.highlights-box h5{
+	line-height: 30px;
+}*/
+.highlights-box:hover{
+	background-color: #16243D ;
+	background-image: url("../images/highlight-bg.png")!important;
+	width: 100%;
+	background-size: contain;
+	border-radius: 9px;
+box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.17);
+height: 106px;
+color: #fff!important;
+}
+.partner-with-us{
+	background: url(../images/partner-bg-1.png) no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	color: #fff;
+}
+.partner-with-us p{
+	color: #BFBFBF;
+	}
+.partner-with-us ul li{
+list-style-image: url("../images/li-img-blue.svg");
+padding-bottom: 20px;
+}
+.form{
+	background: url(../images/form-bg.png) no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+footer{
+	background: #111929;
+	padding-top: 25px;
+    
+
+}
+footer h2{
+	color: #fff;
+	
+	padding-bottom: 28px ;
+}
+footer h6{
+	color: #B6C2DB;
+}
+footer a{
+	text-decoration: none;
+	color: #B6C2DB;
+}
+footer ul li{
+	list-style-type: none ;
+	float: left;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 25px;
+}
